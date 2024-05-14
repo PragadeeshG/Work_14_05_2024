@@ -1,0 +1,15 @@
+create table if not exists hierarchy_entity_info_model(
+hierarchy_key Integer not null,
+e2e_applicable varchar(255) null,
+integration_mode varchar(255) null,
+integration_status varchar(255) null,
+down_stream_name varchar(255) null,
+down_stream_contact varchar(255) null,
+data_type_to_feed varchar(255) null,
+mandatory_data varchar(255) null,
+remarks varchar(255) null,
+additional_info varchar(255) null,
+creation_date varchar(255) null,
+entity_state varchar(255) null,
+modified_date varchar(255) null,
+constraint hierarchy_entity_info_model_pk primary key(hierarchy_key));

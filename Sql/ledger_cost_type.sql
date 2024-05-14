@@ -1,0 +1,15 @@
+create table if not exists ledger_cost_type(
+cb_account1 Integer not null,
+cb_account2 Integer null,
+ledger_system_val1 varchar(255) null,
+ledger_system_val2 varchar(255) null,
+map_set_name varchar(255) null,
+target_system_name varchar(255) null,
+target_system_usage varchar(255) null,
+map_set_status varchar(255) null,
+map_set_usage varchar(255) null,
+target_attribute_name varchar(255) null,
+creation_date varchar(255) null,
+entity_state varchar(255) null,
+modified_date varchar(255) null,
+constraint ledger_cost_type_pk primary key(cb_account1));

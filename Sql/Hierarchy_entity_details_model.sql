@@ -1,0 +1,17 @@
+create table if not exists hierarchy_entity_details_model(
+hierarchy_key Integer not null,
+country_code varchar(255) null,
+custom_config_adopted varchar(255) null,
+criteria1 varchar(255) null,
+criteria2 varchar(255) null,
+criteria3 varchar(255) null,
+criteria4 varchar(255) null,
+criteria5 varchar(255) null,
+submitted varchar(255) null,
+country_lapse varchar(255) null,
+staging_req varchar(255) null,
+staging_identity varchar(255) null,
+creation_date varchar(255) null,
+modifiedDate varchar(255) null,
+entity_state varchar(255) null,
+constraint hierarchy_entity_details_model_pk primary key(hierarchy_key));
